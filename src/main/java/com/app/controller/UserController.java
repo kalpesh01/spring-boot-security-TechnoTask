@@ -27,7 +27,7 @@ public class UserController {
 	@GetMapping("/")
 	public String homePage()
 	{
-		return "Welcome To Home Page";
+		return "Welcome To Home Page !!!!!";
 	}
 	
 	@PostMapping("/registerUser")
